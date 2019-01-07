@@ -1,0 +1,25 @@
+{
+  "name": "gql_backend_boiler",
+  "version": "1.0.0",
+  "description": "Boilerplate for a GraphQL/Express/Postgresql backend",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "apollo-server-express": "^2.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node --presets env,stage-2 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dom Serra",
+  "license": "ISC"
+}
